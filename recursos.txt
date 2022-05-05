@@ -1,0 +1,3 @@
+- implementar pesquisar por palavra chave - done
+- agendar um serviço - done
+- editar um atendimento - done

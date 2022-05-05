@@ -1,0 +1,152 @@
+* {
+    font-family: sans-serif;
+    color: #040055;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #B5B7B4;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#header-image {
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+    border-radius: 50%;
+    margin: 20px 40px 20px 0;
+}
+
+#emptyImage {
+    width: 300px;
+}
+
+.emptyList p {
+    transform: translateX(20px);
+
+}
+
+main {
+    padding-top: 40px;
+    text-align: center;
+}
+
+button,
+.button {
+    width: 200px;
+    height: 30px;
+    margin: 8px 8px 3px 8px;
+    background-color: #6C63FF;
+    color: aliceblue;
+    border: none;
+}
+
+.button:hover,
+button:hover {
+    background-color: #322e7a;
+    color: aliceblue;
+    cursor: pointer;
+}
+
+.optionButtons {
+    width: 30px;
+    margin-left: 5px;
+    cursor: pointer;
+    transition: .5s;
+}
+
+.optionButtons:hover {
+    transform: scale(1.2);
+}
+
+.optionButtons:active {
+    transform: scale(1);
+    opacity: 0.3;
+}
+
+.searchField {
+    margin-top: 20px;
+}
+
+#searchBox {
+    width: 300px;
+    height: 23px;
+    font-size: 17px;
+}
+
+#searchButton {
+    width: 130px;
+}
+
+table,
+th,
+td {
+    border: 1px solid black;
+    border-collapse: collapse;
+    padding: 10px;
+    font-size: 22px;
+}
+
+
+table {
+    margin: 30px auto;
+}
+
+form {
+
+    margin: auto;
+    padding: 0 25px 25px 25px;
+    width: min(800px, 90%);
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.formField {
+
+    display: flex;
+    flex-direction: column;
+    width: min(600px, 90%);
+    align-items: flex-start;
+    /* background-color: #a5a5b6; */
+}
+
+h3 {
+    font-size: 30px;
+    font-weight: 100;
+}
+
+.inputLabels {
+
+    font-size: 25px;
+
+}
+
+.inputField {
+
+    color: #862bee;
+    font-size: 20px;
+    margin: 5px 0 10px 10px;
+    border: none;
+    border-bottom: 1px solid #918ec4;
+    width: 97%;
+    outline: none;
+
+}
+
+/* Remove a ceta do input tipe number */
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+.inputField:focus {
+
+    border-bottom: 2px solid #040055;
+
+}

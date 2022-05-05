@@ -6,7 +6,7 @@ buttons.forEach(button => {
 
 })
 
-const baseUrl = `https://petshop-mongodb.herokuapp.com/atendimentos/`
+const baseUrl = `https://petshop-mongodb.herokuapp.com/`
 
 //Controla os botões principais
 function onClick() {

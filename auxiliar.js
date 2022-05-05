@@ -57,7 +57,7 @@ function desenhaLista(atendimentos) {
 }
 
 function drawSearchBox() {
-
+    eraseAll()
     document.querySelector(".form").innerHTML = "";
 
     const searchField = document.querySelector(".searchField");

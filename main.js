@@ -1,12 +1,10 @@
+const baseUrl = `https://petshop-mongodb.herokuapp.com/`
+
 const buttons = document.querySelectorAll(".actions")
 
 buttons.forEach(button => {
-
     button.addEventListener("click", onClick)
-
 })
-
-const baseUrl = `https://petshop-mongodb.herokuapp.com/`
 
 //Controla os botões principais
 function onClick() {
@@ -24,6 +22,9 @@ function onClick() {
 }
 
 const lista = async () => {
+
+    document.body.style.cursor = 'wait';
+
     const url = baseUrl;
     const res = await fetch(url).then((res) => {
         return res.json()
@@ -48,6 +49,9 @@ const apagar = async (id) => {
 }
 
 const search = async () => {
+
+    document.body.style.cursor = 'wait';
+
     const terms = document.querySelector("#searchBox").value;
     console.log('terms:', terms)
 

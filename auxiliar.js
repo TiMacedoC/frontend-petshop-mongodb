@@ -53,7 +53,7 @@ function desenhaLista(atendimentos) {
     } else {
         drawEmptyList()
     }
-
+    document.body.style.cursor = 'default';
 }
 
 function drawSearchBox() {
@@ -117,6 +117,9 @@ function drawEmptyList() {
         <img id="emptyImage" src="images/no-data.svg" alt="duas pranchetas vazias">
         <p>Nenhum agendamento encontrado!</p>
     `
+
+    document.body.style.cursor = 'default';
+
 }
 
 function desenhaForm() {

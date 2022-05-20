@@ -5,10 +5,6 @@
     padding: 0;
 }
 
-/* html {
-    cursor: var(--mouse);
-} */
-
 header {
     background-color: #B5B7B4;
     display: flex;

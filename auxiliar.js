@@ -1,10 +1,10 @@
+
 function adicionaZero(num, aux) {
     num = num + aux;
     return num > 9 ? num : "0" + num;
 }
 
 function desenhaLista(atendimentos) {
-    console.log('atendimentos:', atendimentos)
     eraseAll()
 
     if (atendimentos.length > 0) {
@@ -53,7 +53,7 @@ function desenhaLista(atendimentos) {
     } else {
         drawEmptyList()
     }
-    document.body.style.cursor = 'default';
+    wholeDocument.style.cursor = 'default'
 }
 
 function drawSearchBox() {
@@ -118,8 +118,7 @@ function drawEmptyList() {
         <p>Nenhum agendamento encontrado!</p>
     `
 
-    document.body.style.cursor = 'default';
-
+    wholeDocument.style.cursor = 'default'
 }
 
 function desenhaForm() {
